@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  
+  <h2>Predict the donation probability to the Democratic Party</h2>
+  
+  <form method="POST" action="/">
+    State:<br>
+    <input type="number" name="State" value=1>
+    <br><br>
+    City:<br>
+    <input type="number" name="City" value=1>
+    <br><br>
+    Employer:<br>
+    <input type="number" name="Employer" value=1>
+    <br><br>
+    Occupation:<br>
+    <input type="number" name="Occupation" value=3>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  {% if pred %}
+  <p>The probability of donating to the Democratic Party is {{ pred }}</p>
+  {% endif %}
+
+  </body>
+</html>
