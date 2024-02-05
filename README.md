@@ -24,7 +24,7 @@ Developed a robust Donor Detector model to aid political fundraisers in accurate
 ### Deployment
 - The model was wrapped as an API using Flask and deployed on Google Cloud Platform (GCP).
 
-![Model Tuning](Model Tuning.jpg)
+![Model Tuning](Model%20Tuning.jpg)
 
 ## Political Funding Forecasting
 
